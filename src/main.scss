@@ -1,12 +1,12 @@
-@import 'scss/reset';
-@import 'scss/base';
+@use './scss/_reset';
+@use './scss/_base';
 
 body {
   padding: 32px;
 
 }
 
-.hero {
+.hero { 
   height: 100%;
   background: antiquewhite;
   display: flex;
